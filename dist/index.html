@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sklepik</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+<table id="user-table">
+    <thead>
+    <tr>
+        <th>Nazwa</th>
+        <th>Cena</th>
+        <th>Ilość</th>
+        <th>Usuń</th>
+    </tr>
+    </thead>
+    <tbody></tbody>
+</table>
+<div>
+    <form id="new-item-form">
+    <input  id="name" placeholder="name" type="text" required>
+    <input  id="price" placeholder="price" type="number" required>
+    <input  id="count" placeholder="count" type="number" required>
+    </form>
+    <button id="send-item-button">Wyślij dane na serwer</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
